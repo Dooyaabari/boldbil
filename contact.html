@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - News Website</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <header>
+        <h1>BOLDBIL</h1>
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact-info">
+            <h2>Contact Information</h2>
+            <p>If you have any questions or need to get in touch with us, please use the contact details below or fill out the contact form.</p>
+            <address>
+                <p><strong>Email:</strong> <a href="mailto:dooyaabariimeah@gmail.com">dooyaabariimeah@gmail.com</a></p>
+                <p><strong>Phone:</strong> +1 (234) 7025526974</p>
+                <p><strong>Address:</strong>Port Harcourt, Rivers State</p>
+            </address>
+        </section>
+
+        <section class="contact-form">
+            <h2>Contact Form</h2>
+            <form action="submit_form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 BOLDBIL. All rights reserved.</p>
+    </footer>
+</body>
+</html>
